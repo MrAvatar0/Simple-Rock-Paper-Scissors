@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1> Rock Paper Scissors </h1>  
+        <div id="name">
+            <p>YOU</p>
+            <p>CPU</p>
+        </div>
+        <div id="imgDiv">
+            <img id="playerHand" src="./img/rock2.png" alt="rock">
+            <img id="cpuHand" src="./img/rock.png" alt="rock">
+        </div>
+
+        <h2>Score</h2>
+        <div id="Score">
+            <p id="playerScore">0</p>
+            <p id="cpuScore">0</p>
+        </div>
+        <h3>Choose!</h3>
+        <div id="buttons">
+            <button onclick="rock()" type="button" class="rock">
+                <i class="fa-solid fa-hand-back-fist"></i> Rock
+            </button>
+            <button onclick="paper()" type="button" class="paper">
+                <i class="fa-solid fa-hand"></i> Paper
+            </button>
+            <button onclick="scissors()" type="button" class="scissors">
+                <i class="fa-solid fa-hand-scissors"></i> Scissors
+            </button>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+        <script src="https://kit.fontawesome.com/c44a7910c6.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
