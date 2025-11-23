@@ -75,12 +75,10 @@ async function shakeHands() {
     cpuHand.src = moves[0]
     playerHand.src = "./img/rock2.png"
     for (let i = 0; i < 3; i++) {
-      // بالا
       playerHand.style.transform = "rotate(25deg)";
       cpuHand.style.transform = "rotate(-25deg)";
       await sleep(150);
   
-      // پایین
       playerHand.style.transform = "rotate(0deg)";
       cpuHand.style.transform = "rotate(0deg)";
       await sleep(150);
