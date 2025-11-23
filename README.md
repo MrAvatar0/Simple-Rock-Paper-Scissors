@@ -35,12 +35,6 @@ In this project, you play against the **computer (CPU)**. The CPU randomly selec
 * **CSS3**
 * **JavaScript (Vanilla)**
 
-## **Future Improvements**
-
-* Add sound effects
-* Add score history
-* Add animations
-* Add a difficulty mode
 
 ## **License**
 
